@@ -62,7 +62,7 @@ unsigned char ROTR (unsigned char x, unsigned int n){
 int main(int argc, char* argv[]){
 	ifstream fs; // filestream reader
 	ofstream out;
-	out.open("output.txt", ios::out | ios::app | ios::binary); // output to binary
+	out.open("output.txt", ios::out | ios::trunc | ios::binary); // output to binary
 	
 
 	
